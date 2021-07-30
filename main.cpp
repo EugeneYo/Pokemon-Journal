@@ -13,7 +13,7 @@
 // #include <cstring>
 // #include <cctype>
 
-#include <structs.h>
+#include <class.h>
 #include <validation.h>
 #include <add.h>
 #include <delete.h>

@@ -5,7 +5,7 @@
 #include <vector>
 #include <algorithm>
 #include <color.h>
-#include <structs.h>
+#include <class.h>
 
 /***************************************************** Structs *****************************************************/
 class Pokemon

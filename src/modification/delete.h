@@ -5,7 +5,7 @@
 
 #include <hunter.h>
 #include <selection.h>
-#include <structs.h>
+#include <class.h>
 #include <color.h>
 #include <delete.h>
 

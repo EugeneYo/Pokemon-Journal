@@ -4,7 +4,7 @@
 #include <iostream>
 #include <fstream>
 
-#include <structs.h>
+#include <class.h>
 #include <trim.h>
 #include <color.h>
 #include <hunter.h>

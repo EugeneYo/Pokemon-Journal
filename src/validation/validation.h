@@ -8,7 +8,7 @@
 #include <regex>
 
 #include <trim.h>
-#include <structs.h>
+#include <class.h>
 #include <color.h>
 #include <validation.h>
 

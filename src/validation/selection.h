@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#include <structs.h>
+#include <class.h>
 #include <hunter.h>
 #include <color.h>
 #include <selection.h>
