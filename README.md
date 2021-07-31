@@ -5,9 +5,10 @@
 # Description
 
 - A very simple console based pokemon journal
+- This system is built to record the journal of hunters
+- A more organized structure project from this [repo](https://github.com/EugeneYo/CppRelated)
 
 # Table of Contents
-
 
 - [Table of Contents](#table-of-contents)
 - [Install Instructions](#install-instructions)
