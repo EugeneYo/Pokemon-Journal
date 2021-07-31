@@ -144,7 +144,7 @@ bool validDatePattern(string date)
 
     if (isLeapYear(year))
     {
-        regex leap_year_pattern("^((([0][1-9]|[12][0-9])-02)|(([0][1-9]|[12][0-9]|[3][01])-[(01|03|05|07|08|10|12)])|(([0][1-9]|[12][0-9]|30)-[(04|06|09|11)]))-\\d{4}");
+        regex leap_year_pattern("^((([0][1-9]|[12][0-9])-02)|(([0][1-9]|[12][0-9]|[3][01])-(01|03|05|07|08|10|12))|(([0][1-9]|[12][0-9]|30)-[(04|06|09|11)]))-\\d{4}");
         correct_leap_year_pattern = regex_match(date, leap_year_pattern);
     }
     else
@@ -152,6 +152,7 @@ bool validDatePattern(string date)
         regex normal_year_pattern("^((([0][1-9]|[1][0-9]|[2][0-8])-02)|(([0][1-9]|[12][0-9]|[3][01])-(01|03|05|07|08|10|12))|(([0][1-9]|[12][0-9]|30)-(04|06|09|11)))-\\d{4}");
         correct_normal_year_pattern = regex_match(date, normal_year_pattern);
     }
+
     return ((correct_date_pattern && correct_leap_year_pattern) || (correct_date_pattern && correct_normal_year_pattern));
 }
 void dateValid(string &date)

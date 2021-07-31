@@ -199,7 +199,13 @@ int main()
         // system("CLS");
         //Create a list and let user to choose
         SetConsoleTextAttribute(console, 14);
-        cout << "\n\n WELCOME to Pokemon Journal \n\n";
+        cout << "\n _____      _                                     _                              _ \n"
+                "|  __ \\    | |                                   | |                            | |\n"
+                "| |__) |__ | | _____ _ __ ___   ___  _ __        | | ___  _   _ _ __ _ __   __ _| |\n"
+                "|  ___/ _ \\| |/ / _ \\ '_ ` _ \\ / _ \\| '_ \\   _   | |/ _ \\| | | | '__| '_ \\ / _` | |\n"
+                "| |  | (_) |   <  __/ | | | | | (_) | | | | | |__| | (_) | |_| | |  | | | | (_| | |\n"
+                "|_|   \\___/|_|\\_\\___|_| |_| |_|\\___/|_| |_|  \\____/ \\___/ \\__,_|_|  |_| |_|\\__,_|_|\n"
+             << endl;
         SetConsoleTextAttribute(console, 11);
         cout << "---------Main Menu---------" << endl;
         SetConsoleTextAttribute(console, 15);

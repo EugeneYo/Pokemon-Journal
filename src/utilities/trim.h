@@ -2,6 +2,7 @@
 #define TRIM_H
 
 #include <iostream>
+
 #include <trim.h>
 
 const std::string WHITESPACE = " \n\r\t\f\v";
