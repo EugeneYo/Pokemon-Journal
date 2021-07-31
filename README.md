@@ -74,7 +74,7 @@ git clone https://github.com/EugeneYo/Pokemon-Journal.git
 
 # Data Management
 
-- Data are stored in txt file at `{root}/data/Hunters.txt`
+- Data are stored in txt file at `{root}/src/data/Hunters.txt`
 - The arrangement of the data are fixed (zero flexibility)
 
 <hr>

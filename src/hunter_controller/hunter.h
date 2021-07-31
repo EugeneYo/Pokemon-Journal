@@ -9,7 +9,7 @@
 #include <color.h>
 #include <hunter.h>
 
-#define DATA "./src/data/Hunters.txt"
+#define DATA "./data/Hunters.txt"
 
 void readHunter(std::vector<Hunter> &hunter);
 void writeHunter(std::vector<Hunter> hunter);
